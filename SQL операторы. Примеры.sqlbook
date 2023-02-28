@@ -1,4 +1,3 @@
--- SQLBook: Code
 -- Вывести информацию о самом дорогом телефоне
 SELECT * FROM phones
 ORDER BY price 
@@ -56,4 +55,3 @@ ORDER BY AVG(price)
 SELECT price, COUNT(price) FROM phones 
 GROUP BY price
 HAVING COUNT(price) > 1
--- SQLBook: Code
